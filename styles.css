@@ -57,7 +57,8 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/santacruz3.gif');
+  background-position: center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -86,7 +87,7 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: rgb(44, 217, 248);
 }
 .card {
   margin: 30px;
@@ -110,14 +111,30 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #fd9e10;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
-.skills li:nth-child(odd) {
-  background: #0399ff;
+.skills li:nth-child(1) {
+  background: #3ed60f;
+}
+
+.skills li:nth-child(2) {
+  background: #1403ff;
+}
+
+.skills li:nth-child(3) {
+  background: #801fff;
+}
+
+.skills li:nth-child(4) {
+  background: #ff2424;
+}
+
+.skills li:nth-child(6) {
+  background: #ff4ae1;
 }
 
 footer {
@@ -151,8 +168,8 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.discogs {
+  background-image: url(images/dicsogs.png);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
